@@ -8,14 +8,17 @@ def exercice2():
     print("bonjour, {prenom} !")
 
 def exercice3():
-    print("Exercice 2 : afficher message sur 3 lignes")
+    print("Exercice 3 : afficher message sur 3 lignes")
     print("Première ligne\n")
     print("Deuxième ligne\n")
     print("Troisième ligne\n")
 
 def exercice4():
-    print("Exercice 2 : Calculer l'âge")
-
+    print("Exercice 4 : Calculer l'âge")
+    dateNaissance = input ("entrer date naissance")
+    age = 2025
+    age = age - dateNaissance
+    print ("Vous avez environ {age} ans")
 
 
 def main():
@@ -27,7 +30,9 @@ def main():
         exercice2()
     elif == "3":
         exercice3()
-   
+        elif == "4":
+        exercice4()
+
     else:
         print("Exercice non reconnu.")
 if __name__ == "__main__":
