@@ -27,6 +27,52 @@ def exercice5():
     somme = a + b
     print (f"la somme des 2 nombres est :{somme}")
 
+def exercice6():
+    print("Exercice 6 : Soustraction simple")
+    a = float(input ("Entrer le premier nombre: "))
+    b = float(input ("Entrer le deuxième nombre: "))
+    soustraction = a - b
+    print (f"la soustraction des 2 nombres est :{soustraction}")
+
+
+def exercice7():
+    print("Exercice 7 : Multiplication simple")
+a = float(input ("Entrer le premier nombre"))
+b = float(input ("Entrer votre 2em nombre"))
+multiplication = a * b
+print (f"la multiplication des 2 est : {multiplication}")
+
+
+def exercice(8):
+    print("Exercice  8: division simple")
+    a = float(input("entrer votre nombre: "))
+    b = float(input "entrer votre 2em nombre")
+division = a / b
+print (f"le résultat est {division}")
+
+
+
+
+
+def exercice(9):
+    print("Exercice  9: Carré d'un nombre")
+    a = float(input("entrer un nombre"))
+    carré = a**2
+    print (f"le résultat est : {carré}")
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
 
 
 def main():
@@ -42,6 +88,15 @@ def main():
         exercice4()
     elif == "5":
         exercice5()
+    elif == "6":
+        exercice6()
+        elif == "7":
+        exercice7()
+    elif == "8":
+        exercice8()
+    elif == "9":
+        exercice9()
+  
 
     else:
         print("Exercice non reconnu.")
