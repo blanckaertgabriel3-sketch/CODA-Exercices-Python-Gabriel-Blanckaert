@@ -37,18 +37,18 @@ def exercice6():
 
 def exercice7():
     print("Exercice 7 : Multiplication simple")
-a = float(input ("Entrer le premier nombre"))
-b = float(input ("Entrer votre 2em nombre"))
-multiplication = a * b
-print (f"la multiplication des 2 est : {multiplication}")
+    a = float(input ("Entrer le premier nombre"))
+    b = float(input ("Entrer votre 2em nombre"))
+    multiplication = a * b
+    print (f"la multiplication des 2 est : {multiplication}")
 
 
 def exercice8():
     print("Exercice  8: division simple")
     a = float(input("entrer votre nombre: "))
     b = float(input ("entrer votre 2em nombre"))
-division = a / b
-print (f"le résultat est {division}")
+    division = a / b
+    print (f"le résultat est {division}")
 
 
 
@@ -79,7 +79,7 @@ def exercice12():
 
     print("Exercice  12: Afficher 5 fois") 
     for i in range(5): 
-        print ("Hello")
+    print ("Hello")
  
  
 
@@ -130,5 +130,6 @@ def main():
 
     else:
         print("Exercice non reconnu.")
+
 if __name__ == "__main__":
     main()
