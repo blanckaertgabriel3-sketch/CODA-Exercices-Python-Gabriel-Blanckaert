@@ -60,7 +60,23 @@ def exercice(9):
     carré = a**2
     print (f"le résultat est : {carré}")
 
+ 
 
+  def exercice(10): 
+
+    print("Exercice  10: Double d'un nombre") 
+    a = float(input("entrer un nombre"))
+    double = a *2
+    print (f"le résultat est {double}")
+
+      def exercice(11): 
+
+    print("Exercice  11: Moitié d'un nombre") 
+    a = float(input("entrer un nombre"))
+    division = (f"le résultat est {division}")
+
+ 
+ 
 
 
   
@@ -96,7 +112,16 @@ def main():
         exercice8()
     elif == "9":
         exercice9()
-  
+    elif == "10": 
+
+        exercice(10) 
+          elif == "11": 
+
+        exercice(11) 
+
+
+
+
 
     else:
         print("Exercice non reconnu.")
