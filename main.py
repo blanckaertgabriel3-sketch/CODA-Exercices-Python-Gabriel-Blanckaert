@@ -43,7 +43,7 @@ multiplication = a * b
 print (f"la multiplication des 2 est : {multiplication}")
 
 
-def exercice(8):
+def exercice8():
     print("Exercice  8: division simple")
     a = float(input("entrer votre nombre: "))
     b = float(input "entrer votre 2em nombre")
@@ -54,7 +54,7 @@ print (f"le résultat est {division}")
 
 
 
-def exercice(9):
+def exercice9():
     print("Exercice  9: Carré d'un nombre")
     a = float(input("entrer un nombre"))
     carré = a**2
@@ -62,14 +62,14 @@ def exercice(9):
 
  
 
-  def exercice(10): 
+def exercice10(): 
 
     print("Exercice  10: Double d'un nombre") 
     a = float(input("entrer un nombre"))
     double = a *2
     print (f"le résultat est {double}")
 
-      def exercice(11): 
+def exercice11(): 
 
     print("Exercice  11: Moitié d'un nombre") 
     a = float(input("entrer un nombre"))
@@ -96,27 +96,25 @@ def main():
     choix = input("Entrez le numéro de l'exercice à exécuter : ")
     if choix == "1":
         exercice1()
-    elif == "2":
+    elif choix == "2":
         exercice2()
-    elif == "3":
+    elif choix == "3":
         exercice3()
-    elif == "4":
+    elif choix== "4":
         exercice4()
-    elif == "5":
+    elif choix== "5":
         exercice5()
-    elif == "6":
+    elif choix== "6":
         exercice6()
-        elif == "7":
+    elif choix== "7":
         exercice7()
-    elif == "8":
+    elif choix== "8":
         exercice8()
-    elif == "9":
+    elif choix== "9":
         exercice9()
-    elif == "10": 
-
+    elif choix== "10": 
         exercice(10) 
-          elif == "11": 
-
+    elif choix== "11": 
         exercice(11) 
 
 
