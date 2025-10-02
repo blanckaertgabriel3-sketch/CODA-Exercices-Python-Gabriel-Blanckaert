@@ -6,6 +6,7 @@ def exercice2():
     print("Exercice 2 : Afficher prenom.")
     prenom = input ("entrer votre prénom")
     print("bonjour, {prenom} !")
+    
 
 
 def main():
