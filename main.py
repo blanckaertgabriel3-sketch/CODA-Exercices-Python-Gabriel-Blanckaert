@@ -73,16 +73,34 @@ def exercice11():
 
     print("Exercice  11: Moitié d'un nombre") 
     a = float(input("entrer un nombre"))
-    division = (f"le résultat est {division}")
+    division = a/2
+    print (f"le résultat est {division}")
 
 def exercice12(): 
 
     print("Exercice  12: Afficher 5 fois") 
     for i in range(5): 
-    print ("Hello")
+        print ("Hello")
  
  
+def exercice13(): 
 
+    print("Exercice  13: Compter jusqu'à 5") 
+    i = 0
+    for i in range(5):
+        i = i + 1
+        print (f"{i}")
+
+
+def exercice14(): 
+
+    print("Exercice  14: Table de 2") 
+    i = 2
+    m = 1 
+    total = 0
+    for i in range(5):
+        total = i * m
+        m = m + 1
 
   
 
@@ -123,7 +141,10 @@ def main():
         exercice11() 
     elif choix== "12": 
         exercice12() 
-
+    elif choix== "13": 
+        exercice13() 
+    elif choix== "14": 
+        exercice14() 
 
 
 
