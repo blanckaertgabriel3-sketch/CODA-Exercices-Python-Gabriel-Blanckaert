@@ -20,6 +20,14 @@ def exercice4():
     age = age - dateNaissance
     print ("Vous avez environ {age} ans")
 
+def exercice5():
+    print("Exercice 5 : Addition simple")
+    a = float(input ("Entrer le premier nombre: "))
+    b = float(input ("Entrer le deuxième nombre: "))
+    somme = a + b
+    print (f"la somme des 2 nombres est :{somme}")
+
+
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
@@ -30,8 +38,10 @@ def main():
         exercice2()
     elif == "3":
         exercice3()
-        elif == "4":
+    elif == "4":
         exercice4()
+    elif == "5":
+        exercice5()
 
     else:
         print("Exercice non reconnu.")
