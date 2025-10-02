@@ -6,8 +6,12 @@ def exercice2():
     print("Exercice 2 : Afficher prenom.")
     prenom = input ("entrer votre prénom")
     print("bonjour, {prenom} !")
-    
 
+def exercice3():
+    print("Exercice 2 : afficher message sur 3 lignes")
+    print(Première ligne)\n
+    print(Deuxième ligne)\n
+    print(Troisième ligne)\n
 
 def main():
     # Demande à l'utilisateur quel exercice exécuter
