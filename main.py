@@ -101,21 +101,138 @@ def exercice14():
 def exercice15(): 
 
     print("Exercice  15: Périmètre du carré")
-    p = input("Entrer la longeur d'un côté du carré")
+    p = float(input("Entrer la longeur d'un côté du carré :"))
     print (f"Le périmètre du carré est {p*4}")
 
+def exercice16(): 
+
+    print("Exercice  16:  Aire du carré")
+    côté = float(input("Donne la longeur du Côté :"))
+    aire = côté ** 2
+    print (f"Pour {côté} de côté, l'aire est: {aire}")
+
+
+def exercice17(): 
+
+    print("Exercice  17:  Conversion euros → dollars")
+    montant = float(input("Entrez le montant en € :"))
+    conversion = montant * 1.1
+    print (f"Taux fixe : 1€ = 1.1$.     {montant}€ = {conversion}$")
 
 
 
+def exercice18(): 
+
+    print("Exercice  18:  Conversion minutes → secondes")
+    min = float(input("Entrez un temps en minutes :"))
+    print (f"{min} minutes = {min *60} secondes")
+
+def exercice19(): 
+
+    print("Exercice  19:  Prix TTC")
+    montant = float(input("Entrez le montant HT :"))
+    print (f"TVA = 20%. {montant} HT = {montant*0.2} TTC")
+
+def exercice20(): 
+
+    print("Exercice  20:  Message personnalisé")
+    nom = input("Met ton nom :")
+    age = input("met ton age :")
+    print (f"Salut mon mignion, je sais tout de toi.\n{nom} je sais aussi que t'as {age}. N'ai pas peur mon petit, ça va bien se passer, on va s'occuper de toi c'est juste une question de temps :d")
 
 
+def exercice21(): 
+
+    print("Exercice  21:  Test positif/négatif")
+    nb = float(input("Entrez nombre :"))
+    if nb < 0 :
+        print ("négatif")
+    else:
+        print("positif")
+
+def exercice22(): 
+
+    print("Exercice  22:  Majeur ou mineur")
+    age = float(input("Entrez age :"))
+    if age < 18 :
+        print ("mineur")
+    else:
+        print("majeur")
+
+def exercice23(): 
+
+    print("Exercice  23:  Note validée")
+    note = float(input("Entrez note :"))
+    if note >= 10 :
+        print ("validé")
+    else:
+        print("non validé")
+
+def exercice24(): 
+
+    print("Exercice  24:  Le plus grand de deux")
+    a = float(input("entre 1 nombre :"))
+    b = float(input("entre un 2em nb :"))
+    if a > b: 
+        print ("{a} > {b}")
+    else:
+        print ("{a} < {b}")
 
 
+def exercice25(): 
+
+    print("Exercice  25:  Ordre croissant")
+    a = float(input("entre 1 nombre :"))
+    b = float(input("entre un 2em nb :"))
+    if a < b: 
+        print ("{a}, {b}")
+    else:
+        print ("{b}, {a}")
+
+def exercice26(): 
+
+    print("Exercice  26:  divisible par 5")
+    nb = float(input("entre 1 nombre :"))
+    if nb % 5 == 0:
+        print(f"{nb} est divisible par 5")
+    else:
+        print(f"{nb} n'est pas divisible par 5")
+
+def exercice27(): 
+
+    print("Exercice  27:  Catégorie d'âge")
+    age = int(input("Entre ton âge : "))
+    if age < 12:
+        print(f"{age} ans → Enfant")
+    elif 12 <= age <= 17:
+        print(f"{age} ans → Adolescent")
+    else:
+        print(f"{age} ans → Adulte")
+
+def exercice28(): 
+
+    print("Exercice  28:  Température de l'eau")
+    temp = int(input("entrez température"))
+    if temp < 0: 
+        print (f("{temp}---> glace "))
+    elif 0 <= temp <=100:
+        print (f"{temp}---> eau liquide")
+    else: 
+        print(f"{temp} --->vapeur")
 
 
+def exercice29(): 
 
-
-
+    print("Exercice  29:  Mention au bac")
+    mention = float(input("entrez note"))
+    if mention < 8:
+        print (f"{mention} ---> recalé")
+    elif 8 <= mention <=11:
+        print (f"{mention} ---> passable")
+    elif 11 <= mention <=14:
+        print (f"{mention} ---> bien")
+    elif mention > 17:
+        print (f"{mention} ---> très bien")
 
 
 
@@ -157,6 +274,41 @@ def main():
         exercice14() 
     elif choix== "15": 
         exercice15() 
+    elif choix== "16": 
+        exercice16() 
+    elif choix== "17": 
+        exercice17() 
+    elif choix== "18": 
+        exercice18() 
+    elif choix== "19": 
+        exercice19() 
+    elif choix== "20": 
+        exercice20()
+    elif choix== "21": 
+        exercice21()
+    elif choix== "22": 
+        exercice22()
+    elif choix== "23": 
+        exercice23()
+    elif choix== "24": 
+        exercice24()
+    elif choix== "25": 
+        exercice25()
+    elif choix== "26": 
+        exercice26()
+    elif choix== "27": 
+        exercice27()
+    elif choix== "28": 
+        exercice28()
+    elif choix== "29": 
+        exercice29()
+    elif choix== "30": 
+        exercice30()
+    elif choix== "31": 
+        exercice31()
+    elif choix== "32": 
+        exercice32()
+
 
 
 
