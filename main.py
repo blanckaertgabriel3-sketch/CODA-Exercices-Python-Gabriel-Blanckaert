@@ -236,9 +236,9 @@ def exercice29():
 
 def exercice30(): 
 
-    print("Exercice  30:  Compter de 1 à N")
-    n = (int("entrez un nombre"))
-    for n in range(1,n):    # n va de 1 à 5
+    print("Exercice  30:  Compter de 1 à N :")
+    n = int(input("entrez un nombre"))
+    for n in range(1,n+1):
         print(f"n = {n}")
 
 
