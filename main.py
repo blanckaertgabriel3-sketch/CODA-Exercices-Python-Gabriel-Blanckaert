@@ -236,10 +236,57 @@ def exercice29():
 
 def exercice30(): 
 
-    print("Exercice  30:  Compter de 1 à N :")
-    n = int(input("entrez un nombre"))
+    print("Exercice  30:  Compter de 1 à N")
+    n = int(input("entrez un nombre :"))
     for n in range(1,n+1):
         print(f"n = {n}")
+
+def exercice31(): 
+
+    print("Exercice  31:  Compter à rebours")
+    n = int(input("entrez un nombre :"))
+    for i in range(n, -1, -1):
+        print(i)
+
+def exercice32(): 
+
+    print("Exercice  32:  Somme jusqu'à N")
+    n = int(input("entrez un nombre :"))
+    for i in range(1, n+1, 1):
+        print(i)
+
+def exercice33(): 
+
+    print("Exercice  33:  Table de multiplication")
+    n = float(input("entrez un nombre :"))
+    for i in range (1,11,1):
+        print (f"{n*i}")
+
+def exercice34(): 
+
+    print("Exercice  34:  Nombres pairs jusqu'à N")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -314,6 +361,8 @@ def main():
         exercice31()
     elif choix== "32": 
         exercice32()
+    elif choix== "33": 
+        exercice33()
 
 
 
