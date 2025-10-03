@@ -98,8 +98,21 @@ def exercice14():
     for i in range(1,6):    # i va de 1 à 5
         print (f"2*{i}={2*i}")
         
+def exercice15(): 
 
-  
+    print("Exercice  15: Périmètre du carré")
+    p = input("Entrer la longeur d'un côté du carré")
+    print (f"Le périmètre du carré est {p*4}")
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,6 +155,8 @@ def main():
         exercice13() 
     elif choix== "14": 
         exercice14() 
+    elif choix== "15": 
+        exercice15() 
 
 
 
