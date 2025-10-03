@@ -100,7 +100,7 @@ def exercice14():
     total = 0
     for i in range(5):
         total = i * m
-        m = m + 1
+        m = m + 1   #ajouter 1 au multiplicateur
         print (f"{i} * {m} = {total}")
 
   
