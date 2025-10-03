@@ -224,7 +224,7 @@ def exercice28():
 def exercice29(): 
 
     print("Exercice  29:  Mention au bac")
-    mention = float(input("entrez note"))
+    mention = float(input("entrez note :"))
     if mention < 8:
         print (f"{mention} ---> recalé")
     elif 8 <= mention <=11:
@@ -234,6 +234,12 @@ def exercice29():
     elif mention > 17:
         print (f"{mention} ---> très bien")
 
+def exercice30(): 
+
+    print("Exercice  30:  Compter de 1 à N")
+    n = (int("entrez un nombre"))
+    for n in range(1,n):    # n va de 1 à 5
+        print(f"n = {n}")
 
 
 
