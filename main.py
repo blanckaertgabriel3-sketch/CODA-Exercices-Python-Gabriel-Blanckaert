@@ -99,9 +99,10 @@ def exercice14():
     m = 1  #multiplicateur
     total = 0
     for i in range(5):
+        print (f"{i} * {m} = {total}")
         total = i * m
         m = m + 1   #ajouter 1 au multiplicateur
-        print (f"{i} * {m} = {total}")
+        
 
   
 
