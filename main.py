@@ -95,13 +95,8 @@ def exercice13():
 def exercice14(): 
 
     print("Exercice  14: Table de 2") 
-    i = 2  #table de 2
-    m = 1  #multiplicateur
-    total = 0
-    for i in range(5):
-        print (f"{i} * {m} = {total}")
-        total = i * m
-        m = m + 1   #ajouter 1 au multiplicateur
+    for i in range(1,6):    # i va de 1 à 5
+        print (f"2*{i}={2*i}")
         
 
   
